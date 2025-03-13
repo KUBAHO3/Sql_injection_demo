@@ -27,7 +27,6 @@ async function bootstrap() {
 
   //cors origin config
   const corsOrigins = process.env.URL_ORGIN;
-  console.log('Cross origin', process.env.URL_ORIGIN);
   app.enableCors({
     origin: corsOrigins,
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
